@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<products>
+
+    <products id="101" category="//fruits/apple" 								name="granny smith" 		quantity="40" shopX="3" shopY="1" shelfZX="0" shelfZY="2"/>
+    <products id="102" category="//fruits/apple" 								name="melrose" 				quantity="40" shopX="4" shopY="1" shelfZX="1" shelfZY="2"/>
+    <products id="103" category="//fruits/apple" 								name="boskoop" 				quantity="40" shopX="5" shopY="1" shelfZX="2" shelfZY="2"/>
+
+    <products id="111" category="//fruits/citrus" 								name="orange" 				quantity="100" shopX="3" shopY="2" shelfZX="0" shelfZY="5"/>
+    <products id="112" category="//fruits/citrus" 								name="lemon" 				quantity="100" shopX="4" shopY="2" shelfZX="1" shelfZY="5"/>
+
+    <products id="121" category="//fruits/pineapple" 							name="pineapple" 			quantity="100" shopX="7" shopY="2" shelfZX="3" shelfZY="7"/>
+
+    <products id="201" category="//cheeses/cow cheeses" 						name="vacherin" 			quantity="7" shopX="8" shopY="5" shelfZX="1" shelfZY="7"/>
+    <products id="202" category="//cheeses/cow cheeses" 						name="gruyere" 				quantity="8" shopX="8" shopY="6" shelfZX="2" shelfZY="7"/>
+    <products id="203" category="//cheeses/cow cheeses" 						name="brie" 				quantity="9" shopX="8" shopY="7" shelfZX="3" shelfZY="7"/>
+
+    <products id="211" category="//cheeses/cow cheeses/low fat" 				name="kiri" 				quantity="16" shopX="3" shopY="7" shelfZX="0" shelfZY="5"/>
+    <products id="212" category="//cheeses/cow cheeses/low fat/laughing cow"	name="vache qui rit  8" 	quantity="16" shopX="4" shopY="7" shelfZX="1" shelfZY="5"/>
+    <products id="213" category="//cheeses/cow cheeses/low fat/laughing cow" 	name="vache qui rit 12" 	quantity="16" shopX="5" shopY="7" shelfZX="2" shelfZY="5"/>
+    <products id="214" category="//cheeses/cow cheeses/low fat/laughing cow" 	name="vache qui rit 32" 	quantity="16" shopX="6" shopY="7" shelfZX="3" shelfZY="5"/>
+
+    <products id="221" category="//cheeses/goat cheeses" 						name="soignon" 				quantity="10" shopX="12" shopY="5" shelfZX="0" shelfZY="7"/>
+    <products id="222" category="//cheeses/goat cheeses" 						name="chavroux" 			quantity="10" shopX="12" shopY="6" shelfZX="1" shelfZY="7"/>
+    <products id="223" category="//cheeses/goat cheeses" 						name="chavignol" 			quantity="10" shopX="12" shopY="7" shelfZX="2" shelfZY="7"/>
+
+    <products id="231" category="//cheeses/goat cheeses/low fat" 				name="sylphide" 			quantity="10" shopX="5" shopY="5" shelfZX="1" shelfZY="5"/>
+    <products id="232" category="//cheeses/goat cheeses/low fat" 				name="st moret" 			quantity="10" shopX="6" shopY="5" shelfZX="3" shelfZY="5"/>
+
+    <products id="301" category="//liquids/waters" 								name="evian" 				quantity="0" shopX="18" shopY="1" shelfZX="0" shelfZY="9"/>
+	<products id="302" category="//liquids/waters" 								name="vittel" 				quantity="1" shopX="18" shopY="2" shelfZX="2" shelfZY="9"/>
+    <products id="311" category="//liquids/juices/apples" 						name="box apple juice" 		quantity="2" shopX="16" shopY="1" shelfZX="1" shelfZY="3"/>
+    <products id="312" category="//liquids/juices/apples" 						name="bottle apple juice" 	quantity="3" shopX="16" shopY="2" shelfZX="2" shelfZY="3"/>
+    <products id="321" category="//liquids/liquors" 							name="cognac XXX" 			quantity="4" shopX="29" shopY="3" shelfZX="1" shelfZY="5"/>
+    <products id="322" category="//liquids/liquors" 							name="cognac VSOP" 			quantity="4" shopX="29" shopY="4" shelfZX="1" shelfZY="5"/>
+    <products id="331" category="//liquids/liquors/rums" 						name="white rums" 			quantity="5" shopX="29" shopY="5" shelfZX="2" shelfZY="5"/>
+    <products id="341" category="//liquids/liquors/vodkas" 						name="zoladkowa" 			quantity="6" shopX="25" shopY="4" shelfZX="3" shelfZY="5"/>
+    <products id="342" category="//liquids/liquors/vodkas" 						name="absolute" 			quantity="6" shopX="24" shopY="4" shelfZX="2" shelfZY="5"/>
+    <products id="351" category="//liquids/liquors/whiskies" 					name="bourbon" 				quantity="7" shopX="23" shopY="4" shelfZX="1" shelfZY="5"/>
+    <products id="352" category="//liquids/liquors/whiskies" 					name="wiskey" 				quantity="7" shopX="22" shopY="4" shelfZX="2" shelfZY="5"/>
+    <products id="361" category="//liquids/liquors/gins" 						name="gin 1" 				quantity="7" shopX="25" shopY="5" shelfZX="0" shelfZY="5"/>
+    <products id="362" category="//liquids/liquors/gins" 						name="gin 2" 				quantity="7" shopX="24" shopY="5" shelfZX="1" shelfZY="5"/>
+    <products id="363" category="//liquids/liquors/gins" 						name="gin 3" 				quantity="7" shopX="23" shopY="5" shelfZX="2" shelfZY="5"/>
+
+    <products id="401" category="//garment/girl/panties" 						name="red panties"			quantity="8" shopX="15" shopY="10" shelfZX="0" shelfZY="3"/>
+    <products id="402" category="//garment/girl/panties" 						name="blue panties" 		quantity="8" shopX="16" shopY="10" shelfZX="1" shelfZY="3"/>
+    <products id="403" category="//garment/girl/panties" 						name="black panties" 		quantity="8" shopX="17" shopY="10" shelfZX="2" shelfZY="3"/>
+    <products id="411" category="//garment/girl/blouses" 						name="dotted blouse" 		quantity="8" shopX="22" shopY="10" shelfZX="1" shelfZY="5"/>
+    <products id="412" category="//garment/girl/blouses" 						name="green blouse" 		quantity="8" shopX="23" shopY="10" shelfZX="2" shelfZY="5"/>
+    <products id="421" category="//garment/girl/skirts" 						name="scottich skirt" 		quantity="8" shopX="23" shopY="8" shelfZX="0" shelfZY="3"/>
+    <products id="422" category="//garment/girl/skirts" 						name="blue skirt" 			quantity="8" shopX="23" shopY="8" shelfZX="1" shelfZY="3"/>
+    <products id="431" category="//garment/girl/dresses" 						name="red dress" 			quantity="8" shopX="15" shopY="8" shelfZX="2" shelfZY="3"/>
+    <products id="432" category="//garment/girl/dresses" 						name="blue dress" 			quantity="8" shopX="16" shopY="8" shelfZX="3" shelfZY="3"/>
+
+    <products id="451" category="//garment/boy/shorts" 							name="yellow short" 		quantity="12" shopX="22" shopY="8" shelfZX="0" shelfZY="0"/>
+    <products id="461" category="//garment/boy/shirts" 							name="red shirt" 			quantity="12" shopX="20" shopY="9" shelfZX="1" shelfZY="4"/>
+    <products id="462" category="//garment/boy/shirts" 							name="pink shirt" 			quantity="12" shopX="21" shopY="9" shelfZX="2" shelfZY="4"/>
+    <products id="463" category="//garment/boy/shirts" 							name="shirt" 				quantity="12" shopX="22" shopY="9" shelfZX="3" shelfZY="4"/>
+    <products id="471" category="//garment/boy/jackets" 						name="jacket" 				quantity="12" shopX="29" shopY="9" shelfZX="0" shelfZY="7"/>
+    <products id="481" category="//garment/boy/vests" 							name="vest" 				quantity="12" shopX="29" shopY="10" shelfZX="3" shelfZY="7"/>
+
+    <products id="491" category="//garment/uni/socks" 							name="socks 1" 				quantity="5" shopX="15" shopY="9" shelfZX="0" shelfZY="6"/>
+    <products id="492" category="//garment/uni/socks" 							name="socks 2" 				quantity="5" shopX="16" shopY="9" shelfZX="1" shelfZY="6"/>
+    <products id="493" category="//garment/uni/socks" 							name="socks 3" 				quantity="5" shopX="17" shopY="9" shelfZX="2" shelfZY="6"/>
+    <products id="494" category="//garment/uni/socks" 							name="socks 4" 				quantity="5" shopX="18" shopY="9" shelfZX="3" shelfZY="6"/>
+
+</products>

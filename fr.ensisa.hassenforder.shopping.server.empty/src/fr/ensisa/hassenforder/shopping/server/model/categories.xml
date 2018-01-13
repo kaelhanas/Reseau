@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<categoryList>
+	
+	<categories>//cheeses</categories>
+	<categories>//cheeses/cow cheeses</categories>
+	<categories>//cheeses/cow cheeses/low fat</categories>
+	<categories>//cheeses/goat cheeses</categories>
+	<categories>//cheeses/goat cheeses/low fat</categories>
+	<categories>//fruits</categories>
+	<categories>//fruits/apple</categories>
+	<categories>//fruits/pear</categories>
+	<categories>//fruits/citrus</categories>
+	<categories>//fruits/pineapple</categories>
+	<categories>//liquids</categories>
+	<categories>//liquids/juices</categories>
+	<categories>//liquids/juices/apples</categories>
+	<categories>//liquids/juices/oranges</categories>
+	<categories>//liquids/juices/tangerines</categories>
+	<categories>//liquids/liquors</categories>
+	<categories>//liquids/liquors/rums</categories>
+	<categories>//liquids/liquors/vodkas</categories>
+	<categories>//liquids/liquors/whiskies</categories>
+	<categories>//liquids/liquors/gins</categories>
+	<categories>//liquids/waters</categories>
+	<categories>//garment</categories>
+	<categories>//garment/girl</categories>
+	<categories>//garment/girl/panties</categories>
+	<categories>//garment/girl/blouses</categories>
+	<categories>//garment/girl/skirts</categories>
+	<categories>//garment/girl/stockings</categories>
+	<categories>//garment/girl/dresses</categories>
+	<categories>//garment/boy</categories>
+	<categories>//garment/boy/shorts</categories>
+	<categories>//garment/boy/shirts</categories>
+	<categories>//garment/boy/jackets</categories>
+	<categories>//garment/boy/vests</categories>
+	<categories>//garment/boy/caps</categories>
+	<categories>//garment/uni</categories>
+	<categories>//garment/uni/socks</categories>
+	
+</categoryList>
