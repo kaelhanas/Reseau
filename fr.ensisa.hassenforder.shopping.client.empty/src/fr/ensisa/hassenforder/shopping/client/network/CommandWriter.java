@@ -15,7 +15,7 @@ public class CommandWriter extends BasicAbstractWriter {
 
     
     
-    public void createRequestCategoriesForCatagory(String path)
+    public void createRequestCategoriesForCategory(String path)
     {
     	this.writeInt(Protocol.REQUEST_CATEGORIES);
     	this.writeString(path);
@@ -28,5 +28,14 @@ public class CommandWriter extends BasicAbstractWriter {
     	this.writeString(path);
     	System.out.println("Requete suivante créée : "+Protocol.REQUEST_PRODUCTS);
     }
+
+
+
+	public void createRequestShopDetailsForCaddy(List<Item> caddy) 
+	{
+		this.writeInt(Protocol.REQUEST_SHOP_DETAILS);
+		
+		
+	}
 
 }

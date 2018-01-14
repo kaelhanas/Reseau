@@ -12,6 +12,8 @@ import fr.ensisa.hassenforder.shopping.client.model.Product;
 public class CommandReader extends BasicAbstractReader {
 
 	private List<String> categories;
+	private List<Product> products;
+	int length;
 	
     public CommandReader(InputStream inputStream) {
         super(inputStream);
@@ -31,15 +33,20 @@ public class CommandReader extends BasicAbstractReader {
         	case Protocol.REPLY_KO :
         		break;*/
         	case Protocol.REPLY_CATEGORIES :
-        		int length = readInt();
+        		length = readInt();
         		for(int i=0;i<length;i++)
         		{
         			categories.add(readString());
         		}
         		break;
-        	/*case Protocol.REPLY_PRODUCTS :
+        	case Protocol.REPLY_PRODUCTS :
+        		length = readInt();
+        		for(int i=0;i<length;i++)
+        		{
+        			products.add(new Product(readInt(),readString(),readString()));
+        		}
         		break;
-        	case Protocol.REPLY_SHOP_DETAILS :
+        	/*case Protocol.REPLY_SHOP_DETAILS :
         		break;
         	case Protocol.REPLY_SHELF_DETAILS :
         		break;
@@ -52,10 +59,15 @@ public class CommandReader extends BasicAbstractReader {
         }
     }
 
-	public List<String> getCategories() {
+	public List<String> getCategories() 
+	{
 		
 		return categories;
 	}
     
+	public List<Product> getProducts()
+	{
+		return products;
+	}
     
 }

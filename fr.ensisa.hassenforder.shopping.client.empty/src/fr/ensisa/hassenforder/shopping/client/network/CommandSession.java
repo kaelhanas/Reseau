@@ -50,7 +50,7 @@ public class CommandSession implements ISession {
             //getcategoryPath()
             
             CommandWriter w = new CommandWriter(connection.getOutputStream());
-            w.createRequestCategoriesForCatagory(path);
+            w.createRequestCategoriesForCategory(path);
             w.send();
             CommandReader r = new CommandReader(connection.getInputStream());
             r.receive();
@@ -78,8 +78,13 @@ public class CommandSession implements ISession {
         	w.send();
         	CommandReader r = new CommandReader(connection.getInputStream());
             r.receive();
+            
+            if (r.getType() == Protocol.REPLY_CATEGORIES)
+            {
+            	return r.getProducts();
+            }
         	
-        	if (null == null) throw new IOException("to implement");
+        	//if (null == null) throw new IOException("to implement");
             return null;
 
             
@@ -91,6 +96,11 @@ public class CommandSession implements ISession {
     @Override
     synchronized public List<Product> getShopDetailsForCaddy(List<Item> caddy) {
         try {
+        	
+        	/*CommandWriter w = new CommandWriter(connection.getOutputStream());
+        	w.createRequestShopDetailsForCaddy(caddy);
+        	w.send();*/
+        	
         	if (null == null) throw new IOException("to implement");
             return null;
             
@@ -116,9 +126,11 @@ public class CommandSession implements ISession {
 
     private Image loadPicture(String name) {
         Image bi = null;
+        
         try {
         	
-        	//TODO
+        	CommandWriter w = new CommandWriter(connection.getOutputStream());
+        	//w.createRequestPicture()
         	
             bi = ImageIO.read(new File ("./images", name+".png"));
         } catch (IOException ex) {
