@@ -15,11 +15,18 @@ public class CommandWriter extends BasicAbstractWriter {
 
     
     
-    public void createRequestCategorieForCatagory()
+    public void createRequestCategoriesForCatagory(String path)
     {
     	this.writeInt(Protocol.REQUEST_CATEGORIES);
+    	this.writeString(path);
     	System.out.println("Requete suivante créée : "+Protocol.REQUEST_CATEGORIES);
     }
     
+    public void createRequestProductsForCategory(String path)
+    {
+    	this.writeInt(Protocol.REQUEST_PRODUCTS);
+    	this.writeString(path);
+    	System.out.println("Requete suivante créée : "+Protocol.REQUEST_PRODUCTS);
+    }
 
 }

@@ -50,7 +50,7 @@ public class CommandSession implements ISession {
             //getcategoryPath()
             
             CommandWriter w = new CommandWriter(connection.getOutputStream());
-            w.createRequestCategorieForCatagory();
+            w.createRequestCategoriesForCatagory(path);
             w.send();
             CommandReader r = new CommandReader(connection.getInputStream());
             r.receive();
@@ -72,6 +72,13 @@ public class CommandSession implements ISession {
     @Override
     synchronized public List<Product> getProductsForCategory(String path) {
         try {
+        	
+        	CommandWriter w = new CommandWriter(connection.getOutputStream());
+        	w.createRequestProductsForCategory(path);
+        	w.send();
+        	CommandReader r = new CommandReader(connection.getInputStream());
+            r.receive();
+        	
         	if (null == null) throw new IOException("to implement");
             return null;
 
