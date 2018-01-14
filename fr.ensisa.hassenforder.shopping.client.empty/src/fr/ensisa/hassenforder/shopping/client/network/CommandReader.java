@@ -29,10 +29,15 @@ public class CommandReader extends BasicAbstractReader {
         	/*case Protocol.REPLY_OK :
         		break;
         	case Protocol.REPLY_KO :
-        		break;
+        		break;*/
         	case Protocol.REPLY_CATEGORIES :
+        		int length = readInt();
+        		for(int i=0;i<length;i++)
+        		{
+        			categories.add(readString());
+        		}
         		break;
-        	case Protocol.REPLY_PRODUCTS :
+        	/*case Protocol.REPLY_PRODUCTS :
         		break;
         	case Protocol.REPLY_SHOP_DETAILS :
         		break;
