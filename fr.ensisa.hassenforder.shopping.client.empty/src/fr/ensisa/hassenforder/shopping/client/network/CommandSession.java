@@ -129,7 +129,6 @@ public class CommandSession implements ISession {
         
         try {
         	
-        	CommandWriter w = new CommandWriter(connection.getOutputStream());
         	//w.createRequestPicture()
         	
             bi = ImageIO.read(new File ("./images", name+".png"));
@@ -151,7 +150,9 @@ public class CommandSession implements ISession {
     synchronized public Image getPicture(int id) {
         try {
         	
-        	//TODO
+        	CommandWriter w = new CommandWriter(connection.getOutputStream());
+        	w.createRequestGetPicture(id);
+        	w.send();
         	
         	if (null == null) throw new IOException("to implement");
             return null;

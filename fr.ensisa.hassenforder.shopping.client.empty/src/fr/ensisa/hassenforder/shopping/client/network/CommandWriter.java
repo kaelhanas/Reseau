@@ -34,7 +34,22 @@ public class CommandWriter extends BasicAbstractWriter {
 	public void createRequestShopDetailsForCaddy(List<Item> caddy) 
 	{
 		this.writeInt(Protocol.REQUEST_SHOP_DETAILS);
+		this.writeInt(caddy.size());
+		for(Item i:caddy) 
+		{
+			this.writeInt(i.getProduct().getId());
+		}
+		System.out.println("Requete suivante créée : "+Protocol.REQUEST_SHOP_DETAILS);
 		
+	}
+
+
+
+	public void createRequestGetPicture(int id) 
+	{
+		this.writeInt(Protocol.REQUEST_PICTURE);
+		this.writeInt(id);
+		System.out.println("Requete suivante créée : "+Protocol.REQUEST_PICTURE);
 		
 	}
 
